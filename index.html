@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>QR Code Generator</h1>
+
+  <input type="text" id="text" placeholder="Enter text or URL">
+  <button onclick="generateQR()">Generate QR</button>
+  <div id="qrcode"></div>
+
+  <button id="download">Download PNG</button>
+
+  <!-- Mandatory Digital Heroes button -->
+  <a href="https://digitalheroesco.com" target="_blank">
+    <button>Built for Digital Heroes</button>
+  </a>
+
+  <!-- Your name + email -->
+  <p>Made by: Asfina<br>Email: your-email@example.com</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
